@@ -1,0 +1,59 @@
+
+body{
+      background: black;
+    }
+h1{
+    color: yellow;
+  }
+
+h2{
+    color: blue;
+  }
+  h3{
+    color: red;
+  }
+  p{
+     font-size: 20px;
+     font-family: cursive;
+     color: white;
+  }
+
+#heading1 {
+              text-align:left;
+            }
+
+#MyMenu {
+              font-family: arial, sans-serif;
+              width: 100%;
+  }
+
+#MyMenu td, #MyMenu th
+  {
+    text-align: left;
+    padding: 8px;
+  }
+#MyMenu th{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            text-align: left;
+          /*  background-color: yellow;*/
+            color: blue;
+}
+#MyMenu th:hover{background-color: indigo}
+
+gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
